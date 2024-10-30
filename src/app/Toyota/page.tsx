@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 const Toyota = () => {
   return (
     <>  
@@ -7,7 +8,7 @@ const Toyota = () => {
       <h1>Toyota Corolla 2024 Price in Pakistan, Images, Reviews & Specs</h1>
        </div>
       <div className='flex justify-center py-4 bg-white'>
-        <img src="corolla3.jpg" alt="logo" />
+        <Image src="corolla3.jpg" alt="logo" />
       </div>
 <div className='flex justify-center'>
   <button>

@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
     <div>
       <nav className='bg-blue-600 h-20 py-2 px-3 flex justify-between items-center text-white' >
         <div>
-        <img src="/logo4.png" alt="logo"  
+        <Image src="/logo4.png" alt="logo"  
         className='w-30 h-20'  
         
         />

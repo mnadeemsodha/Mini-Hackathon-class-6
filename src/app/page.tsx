@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from 'next/head'
 import Hero from '../components/Hero'
 import Featuredcars from '../components/Featuredcars'
 

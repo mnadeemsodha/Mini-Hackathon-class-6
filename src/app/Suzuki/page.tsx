@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 const Suzuki = () => {
   return (
     <>  
@@ -7,7 +8,7 @@ const Suzuki = () => {
       <h1>Suzuki Alto 2024 Price in Pakistan, Images, Reviews & Specs</h1>
        </div>
       <div className='flex justify-center py-2 bg-white'>
-        <img src="Alto.jpg" alt="logo" className='w-1/5'/>
+        <Image src="Alto.jpg" alt="logo" className='w-1/5'/>
       </div>
 <div className='flex justify-center'>
   <button>

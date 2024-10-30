@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 const Hondacity = () => {
   return (
     <>  
@@ -7,7 +8,7 @@ const Hondacity = () => {
       <h1>Hondacity2024 Price in Pakistan, Images, Reviews & Specs</h1>
        </div>
       <div className='flex justify-center py-4 bg-white'>
-        <img src="city4.jpg" alt="logo" className='w-1/5' />
+        <Image src="city4.jpg" alt="logo" className='w-1/5' />
       </div>
 <div className='flex justify-center'>
   <button>
